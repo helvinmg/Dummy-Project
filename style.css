@@ -1,0 +1,29 @@
+h1
+{
+    background-color: #ED684E;
+    /*font Properties*/
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif; /*fallback mechanism*/
+    font-weight: bold;/*<b>*/
+    /* 100,200,300,700,900 */
+    font-style: italic; /*<i>*/
+}
+p
+{
+    /*Text Properties*/
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 50px;
+    /* word-spacing: 100px; */
+    /* letter-spacing: 100px; */
+    text-decoration-line: line-through;
+    text-decoration-color: red;
+    text-decoration-style: dotted;
+    /*short hand for text deco*/
+    text-decoration: overline blue dashed 10px;
+    background-image: url(dog.png);
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+    /* background-position: center; */
+    height: 400px;
+}
